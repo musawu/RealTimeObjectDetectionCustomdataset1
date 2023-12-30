@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['augmented_gun - v2 2022-04-06 6-32pm']
+
+roboflow:
+  workspace: guardian-eye-jvt5f
+  project: gun-detection-2-lbaid
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/guardian-eye-jvt5f/gun-detection-2-lbaid/dataset/1
